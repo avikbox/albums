@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  box-sizing: border-box;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.inputSearch {
+  width: 300px;
+  height: 20px;
+  margin: 10px auto;
+  border-radius: 2px;
+  border: 2px solid gray;
+  padding-left: 10px;
+}
+
+.inputWrap {
+  width: 300px;
+  margin: 20px auto 10px auto;
+  position: relative;
+}
+
+.containerList {
+  width: 700px;
+  border: 1px solid lightgray;
+  margin: 10px auto;
+  border-radius: 5px;
+  background-color: #000000;
+  /*text-align: left;*/
+  padding: 15px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+  background-color: #fffdd5;
+  border-radius: 3px;
+}
+
+.albumName {
+  margin-right: 20px;
+  padding: 4px;
+}
+
+.delButton {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  padding: 4px;
+  border-radius: 3px;
+  color: white;
+}
+.delButton:hover {
+  cursor: pointer;
+}
+
+.searchList {
+  position: absolute;
+  width: 100%;
+  /*min-height: 200px;*/
+  border: 1px solid green;
+  background-color: #fff;
+}
+
+.searchItem {
+  padding: 3px 10px;
+  background-color: lightgray;
+  margin: 5px 0;
+}
+
+.searchItem:hover {
+  background-color: #a8a8a8;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
